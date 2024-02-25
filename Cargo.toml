@@ -2,7 +2,25 @@
 name = "rwa-analytics"
 version = "0.1.0"
 edition = "2021"
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/epappas/rwa-analytics"
+homepage = "https://github.com/epappas/rwa-analytics"
+documentation = "https://github.com/epappas/rwa-analytics"
+authors = ["Evangelos Pappas <epappas@evalonlabs.com>"]
+categories = ["finance", "cryptography::cryptocurrencies", "api-bindings"]
+keywords = [
+	"rwa",
+	"analytics",
+	"real world assets",
+	"blockchain",
+	"ethereum",
+	"solidity",
+	"rust",
+	"web3",
+	"web3-rs",
+	"web3-rs-eth",
+]
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]

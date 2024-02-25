@@ -12,7 +12,7 @@ homepage = "https://github.com/epappas/rwa-analytics"
 documentation = "https://github.com/epappas/rwa-analytics"
 authors = ["Evangelos Pappas <epappas@evalonlabs.com>"]
 categories = ["finance", "cryptography::cryptocurrencies", "api-bindings"]
-keywords = ["rwa", "analytics", "real world assets", "blockchain", "finance"]
+keywords = ["rwa", "analytics", "blockchain", "finance", "cryptocurrencies"]
 
 
 [dependencies]

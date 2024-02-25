@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2021"
 rust-version = "1.72.0"
 publish = true
+description = "Real World Assets Analytics"
 readme = "README.md"
 license = "MIT"
 repository = "https://github.com/epappas/rwa-analytics"

@@ -14,5 +14,20 @@ authors = ["Evangelos Pappas <epappas@evalonlabs.com>"]
 categories = ["finance", "cryptography::cryptocurrencies", "api-bindings"]
 keywords = ["rwa", "analytics", "blockchain", "finance", "cryptocurrencies"]
 
+[workspace]
+
 
 [dependencies]
+async-trait = "0.1.77"
+log = "0.4.20"
+reqwest = { version = "0.11", features = ["json"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0.114"
+tokio = { version = "1.36.0", features = ["full"] }
+web3 = "0.19.0"
+
+[dev-dependencies]
+# For examples
+env_logger = "0.11"
+hex-literal = "0.4"
+wiremock = "0.6.0"
